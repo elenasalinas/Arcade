@@ -2,26 +2,26 @@ CODE TEMPLATE:
 //This is a single line comment (notes that won't be read as instructions to the computer).
 //Different syntax is used for comments depending on the language.
 
-//CHANGE ME: Add the title of your game
-//Add your first and last name 
+//Brickbreaker
+//Elena Salinas 
 
 
-if (CHANGE ME: condition # 1) {
-    //Add event below
+if (ball is appraching bottom) {
+    //move panel to ball x-coordinate
 } else {
-    //Add event below
+    //dont move panel
 }
 
-if (CHANGE ME: condition # 2) {
-    //Add event below
+if (if power-up is approaching bottom) {
+    ///move panel to power-up x-coordinate
 } else {
-    //Add event below
+    //move panel to ball location
 }
 
-if (CHANGE ME: condition # 3) {
-    //Add event below
+if (if ball and power-up are no where near the bottom) {
+    //remain idle and track items
 } else {
-    //Add event below
+    //move panel to ball x-coordinate
 }
 
 
